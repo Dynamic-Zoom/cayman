@@ -6,7 +6,7 @@ description: Dive into the advanced super-resolution technology of Dynamic Zoom,
 
 # Dynamic Zoom: Real-Time Super-Resolution Enhancement
 
-**Team:** Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
+**Team:** Shantanu Vichare, Darío Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
 **Course:** CS 766 - Computer Vision  
 **Institution:** University of Wisconsin-Madison
 
