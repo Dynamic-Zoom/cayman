@@ -118,11 +118,12 @@ Our system is designed for user engagement and quality output, structured as fol
 
 Before and After using Dynamic Zoom:
 
-<video align="center">
- <video width="320" height="240" controls>
-  <source src="dog1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<div style="text-align: center;">
+  <video width="320" height="240" controls>
+    <source src="dog1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 *Note the enhanced clarity and detail in the 'Bicubic++' image.*
 
