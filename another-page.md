@@ -4,32 +4,56 @@ title: Dynamic Zoom - Advanced Video Resolution Enhancement
 description: Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time video enhancement system designed for digital media.
 ---
 
-# Dynamic Zoom: Real-Time Super-Resolution Enhancement
-
 **Team:** Shantanu Vichare, Darío Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
 **Course:** CS 766 - Computer Vision  
 **Institution:** University of Wisconsin-Madison
 
 ## Welcome to Dynamic Zoom
 
-Dynamic Zoom is a project designed to enhance video resolution in real-time. By leveraging advanced super-resolution technologies, our team aims to transform how digital media is consumed and produced.
+Dynamic Zoom is a project developed at the University of Wisconsin-Madison ECE 766 Class, designed to enhance video resolution in real time, transforming how digital media is consumed and produced across various industries. Leveraging cutting-edge super-resolution technologies, this project addresses the common degradation of video quality during digital zoom, such as blurring and pixelation, which affects viewer satisfaction and hampers professional digital analysis. By integrating advanced machine learning algorithms and computational strategies, Dynamic Zoom aims to deliver high-definition content without the substantial processing time associated with traditional super-resolution methods. 
 
 ## Motivation
 
 The need for high-definition, clear imagery is more critical than ever across various fields:
 
+![Image](assets\pictures\sports.png)
+
 - **Sports Analysis:** Enhancing video quality for clearer slow-motion replays.
+
+![Image](assets\pictures\AR.png)
+
 - **Augmented Reality:** Improving the resolution for more immersive experiences.
+
+![Image](assets\pictures\security.png)
+
 - **Security and Surveillance:** Increasing video clarity for better monitoring and analysis.
+
+![Image](assets\pictures\wildfire.png)
+
 - **Search and Rescue Operations:** Enhancing video details to aid critical missions.
 
 ## Challenges and Innovation
 
-Digital zoom often results in significant quality degradation, such as pixelation. Our project, Dynamic Zoom, addresses these issues by providing a real-time solution that not only enhances clarity but also operates efficiently, focusing on key Regions of Interest (ROIs).
+Digital zoom often results in significant quality degradation, such as pixelation, like the following example: 
+
+![Image](assets\pictures\optical1.jpg)
+
+Our project, Dynamic Zoom, aims tp address these issues by providing a real-time solution that not only enhances clarity but also operates efficiently, this based on the application of advanced super-resolution techniques limited to the key Regions of Interest (ROIs) in the video frames.
+
+![Image](assets\pictures\optical2.jpg)
 
 ## Technical Insight
 
-Our approach utilizes the Bicubic++ model, highly awarded for its efficiency and effectiveness in enhancing low-resolution images in real time. We also examine the limitations of existing super-resolution methods like SwiftSRGAN, which, while powerful, do not offer the speed necessary for real-time applications.
+Our approach utilizes the Bicubic++ model, highly awarded for its efficiency and effectiveness in enhancing low-resolution images in real time. This model selection is based on its ability to generate high-quality images with minimal computational resources, when comparing to other advanced super-resolution methods like SwiftsSRGAN, that while powerful, do not offer the speed necessary for real-time applications.
+
+### Bicubic++ Model
+
+![Image](assets\pictures\bicubicmodel.png)
+
+Bicubic++ is an advanced super-resolution model using deep learning and convolutional neural networks (CNNs) to enhance video and image quality. Trained on a broad dataset of image pairs, it efficiently learns to upscale images while preserving detail and texture. Key features include PixelShuffle for effective resolution enhancement and smoother pixel calculation functions to optimize image sharpness. Utilized by Dynamic Zoom, Bicubic++ ensures high-quality video output in real time, ideal for performance-critical applications.
+
+![Image](assets\pictures\bicubicfunction.png)
+
 
 ## Methodology
 
@@ -43,14 +67,19 @@ Dynamic Zoom combines GPU-accelerated processing with advanced machine learning 
 
 ### Advanced Upscaling Techniques: PixelShuffle and Conv2D Transpose
 
+![Image](assets\pictures\conv2d.gif)
+
+- **Conv2D Transpose:**
+  - **Spatial Expansion:** Conv2D Transpose, often referred to as deconvolution, is used to perform spatial upsampling of the video frames. This method allows Dynamic Zoom to expand the spatial dimensions of a feature map, thus generating a larger output that retains much of the original's detail and structure.
+  - **Real-Time Processing:** By adjusting the stride and padding parameters, Conv2D Transpose layers can be tuned to produce high-resolution outputs from lower-resolution inputs quickly, which is crucial for maintaining real-time performance during live video enhancements.
+
+![Image](assets\pictures\pixelshuffle.gif)
+
 - **PixelShuffle:**
   - **Resolution Enhancement:** PixelShuffle is employed to rearrange the output of convolution layers, effectively increasing the resolution of images. It works by shuffling pixel values from a low-resolution grid to a high-resolution matrix, enabling finer details to be reconstructed with greater accuracy.
   - **Efficient Feature Learning:** Unlike traditional upscaling methods that may blur finer details, PixelShuffle preserves textural nuances and edges, making it ideal for enhancing video quality in real-time applications.
   
-- **Conv2D Transpose:**
-  - **Spatial Expansion:** Conv2D Transpose, often referred to as deconvolution, is used to perform spatial upsampling of the video frames. This method allows Dynamic Zoom to expand the spatial dimensions of a feature map, thus generating a larger output that retains much of the original's detail and structure.
-  - **Real-Time Processing:** By adjusting the stride and padding parameters, Conv2D Transpose layers can be tuned to produce high-resolution outputs from lower-resolution inputs quickly, which is crucial for maintaining real-time performance during live video enhancements.
-  
+
 These sophisticated techniques enable Dynamic Zoom to not only upscale video resolutions effectively but also to ensure that the output is of high quality, with enhanced clarity and sharpness, suitable for various real-time applications such as broadcast media, surveillance, and AR/VR environments.
 
 ## Interactive Video Enhancement Pipeline
