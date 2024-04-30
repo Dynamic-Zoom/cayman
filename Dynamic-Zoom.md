@@ -118,7 +118,8 @@ Our system is designed for user engagement and quality output, structured as fol
 
 Before and After using Dynamic Zoom:
 
-<iframe width="800" height="500" src="https://vimeo.com/941340616" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/941340616?h=243e328936" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/941340616">dog1</a> from <a href="https://vimeo.com/user218955525">Dar&iacute;o Placencio Hidalgo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 *Note the enhanced clarity and detail in the 'Bicubic++' image.*
 
