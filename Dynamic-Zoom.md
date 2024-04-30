@@ -8,9 +8,7 @@ description: Dive into the advanced super-resolution technology of Dynamic Zoom,
 
 Dynamic Zoom is a project developed at the University of Wisconsin-Madison ECE 766 Class, designed to enhance video resolution in real time, transforming how digital media is consumed and produced across various industries. Leveraging cutting-edge super-resolution technologies, this project addresses the common degradation of video quality during digital zoom, such as blurring and pixelation, which affects viewer satisfaction and hampers professional digital analysis. By integrating advanced machine learning algorithms and computational strategies, Dynamic Zoom aims to deliver high-definition content without the substantial processing time associated with traditional super-resolution methods. 
 
-<p align="center">
-  <img src="assets/pictures/Zoom1.gif" />
-</p>
+<iframe src="https://player.vimeo.com/video/941358351?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="transition"></iframe>
 
 **Team:** Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
 **Course:** CS 766 - Computer Vision  
@@ -110,15 +108,11 @@ Our system is designed for user engagement and quality output, structured as fol
 
 ### Dynamic Zoom in Action
 
-[![Watch the Dynamic Zoom Demo](https://drive.google.com/file/d/1KU8rSxfsXD_Rm5fMwZVQ3zKRKm9p_nEm/view?resourcekey&pli=1)](https://drive.google.com/file/d/1KU8rSxfsXD_Rm5fMwZVQ3zKRKm9p_nEm/view?resourcekey&pli=1)
-
-*Click above to watch Dynamic Zoom enhance video quality in real time!*
-
-### Quality Comparison
-
 Before and After using Dynamic Zoom:
 
 <iframe src="https://player.vimeo.com/video/941340616?h=243e328936" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+*Click above to watch Dynamic Zoom enhance video quality in real time!*
 
 *Note the enhanced clarity and detail in the 'Bicubic++' image.*
 
@@ -134,9 +128,7 @@ When comparing just the upscaling quality:
 
 Dynamic Zoom's real-time processing capabilities:
 
-<p align="center">
-  <img src="assets/pictures/latencyperformance.gif" />
-</p>
+<iframe src="https://player.vimeo.com/video/941360142?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="latency performance"></iframe>
 
 *The system achieves high-quality results with minimal delay.*
 
