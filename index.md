@@ -8,7 +8,7 @@ description: Dive into the advanced super-resolution technology of Dynamic Zoom,
 
 Dynamic Zoom is a project developed at the University of Wisconsin-Madison ECE 766 Class, designed to enhance video resolution in real time, transforming how digital media is consumed and produced across various industries. Leveraging cutting-edge super-resolution technologies, this project addresses the common degradation of video quality during digital zoom, such as blurring and pixelation, which affects viewer satisfaction and hampers professional digital analysis. By integrating advanced machine learning algorithms and computational strategies, Dynamic Zoom aims to deliver high-definition content without the substantial processing time associated with traditional super-resolution methods. 
 
-Repository: (https://github.com/hemanth-nakshatri/Dynamic-Zoom)[https://github.com/hemanth-nakshatri/Dynamic-Zoom]
+Repository: [https://github.com/hemanth-nakshatri/Dynamic-Zoom](https://github.com/hemanth-nakshatri/Dynamic-Zoom)
 
 <div style="padding:66.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/941358351?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="transition"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
