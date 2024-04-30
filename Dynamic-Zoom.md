@@ -12,7 +12,7 @@ Dynamic Zoom is a project developed at the University of Wisconsin-Madison ECE 7
   <img src="assets/pictures/Zoom1.gif" />
 </p>
 
-**Team:** Shantanu Vichare, Darío Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
+**Team:** Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
 **Course:** CS 766 - Computer Vision  
 **Institution:** University of Wisconsin-Madison
 
