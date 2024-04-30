@@ -120,7 +120,7 @@ Before and After using Dynamic Zoom:
 
 <div style="text-align: center;">
   <video width="320" height="240" controls>
-    <source src="dog1.mp4" type="video/mp4">
+    <source src="https://media.githubusercontent.com/media/Dynamic-Zoom/cayman/0fe91dc1cfa62dd07ae4fe3f59a21fea8bec261b/assets/pictures/dog1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
