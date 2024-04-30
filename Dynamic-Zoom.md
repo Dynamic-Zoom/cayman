@@ -118,9 +118,7 @@ Our system is designed for user engagement and quality output, structured as fol
 
 Before and After using Dynamic Zoom:
 
-<video controls width="800" height="500" muted loop autoplay>
-    <source src="https://raw.githubusercontent.com/Dynamic-Zoom/cayman/0fe91dc1cfa62dd07ae4fe3f59a21fea8bec261b/assets/pictures/dog1.mp4" type="video/mp4">
-</video>
+<iframe width="800" height="500" src="https://vimeo.com/941340616" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *Note the enhanced clarity and detail in the 'Bicubic++' image.*
 
