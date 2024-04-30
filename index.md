@@ -69,7 +69,7 @@ Dynamic Zoom combines GPU-accelerated processing with advanced machine learning 
 ### Advanced Upscaling Techniques: PixelShuffle and Conv2D Transpose
 
 <p align="center">
-  <img src="https://github.com/Dynamic-Zoom/home/tree/master/assets/pictures/conv2d.gif?raw=true" />
+  <img src="assets/pictures/conv2d.gif" />
 </p>
 
 **Conv2D Transpose:**
@@ -77,7 +77,7 @@ Dynamic Zoom combines GPU-accelerated processing with advanced machine learning 
   - **Real-Time Processing:** By adjusting the stride and padding parameters, Conv2D Transpose layers can be tuned to produce high-resolution outputs from lower-resolution inputs quickly, which is crucial for maintaining real-time performance during live video enhancements.
 
 <p align="center">
-  <img src="https://github.com/Dynamic-Zoom/home/tree/masterassets/pictures/pixelshuffle.gif?raw=true" />
+  <img src="assets/pictures/pixelshuffle.gif" />
 </p>
 
 **PixelShuffle:**
