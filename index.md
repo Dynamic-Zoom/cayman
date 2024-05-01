@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="overview-wrapper">
+<div id="overview-wrapper" hidden>
 <h2 id="overview">Project Overview</h2>
 <p>This project is developed as part of a project for Computer Vision (CS/ECE 766) at University of Wisconsin-Madison during Spring 2024.</p>
 <ul>

@@ -16,20 +16,9 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <script>
-      function toggleOverview() {
-        var overviewHidden = false;
-        setInterval(() => {
-          element = document.getElementById('overview-wrapper');
-          if (overviewHidden) {
-            element.removeAttribute("hidden");
-            overviewHidden = false;
-          } else {
-            element.setAttribute("hidden", "");
-            overviewHidden = true;
-          }
-        }, 3000)
+      if (Date.now() < Date.parse("May 15 2024")) {
+        document.getElementById('overview-wrapper').removeAttribute("hidden");
       }
-      toggleOverview()
     </script>
 
     <header class="page-header" role="banner">
