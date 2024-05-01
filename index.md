@@ -115,7 +115,7 @@ Our system is designed for user engagement and quality output, structured as fol
 Before and After using Dynamic Zoom:
 
 
-<div style="padding:56.25% 0 0 0;position:relative;">
+<div align="center">
 <iframe src="https://player.vimeo.com/video/941340616?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="quality" allowfullscreen></iframe></div>
 
 *Click above to watch Dynamic Zoom enhance video quality in real time!*
