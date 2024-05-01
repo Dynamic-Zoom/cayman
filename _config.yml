@@ -1,8 +1,11 @@
 site_settings:
-  title: "Dynamic Zoom: Enhancing Video Resolution in Real-Time"
-  description: >
-    Explore Dynamic Zoom, our innovative real-time super-resolution technique tailored for digital media. Designed as a project for UW-Madison - ECE 766, this work leverages the cutting-edge Bicubic++ model to deliver high-definition video content without the usual degradation during zoom. Perfect for creators and consumers aiming for precision and clarity in dynamic video segments.
-  show_downloads: true
+  title: "Dynamic Zoom - Real-time Video Resolution Enhancement"
+  description: "Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time video enhancement system designed for digital media."
   theme: jekyll-theme-cayman
   url: "https://dynamic-zoom.github.io"  # Change this to your GitHub Pages URL or custom domain
-  baseurl: "/cayman"  # Change this to the name of your GitHub repository if your site is hosted there
+  baseurl: "/home"  # Change this to the name of your GitHub repository if your site is hosted there
+github:
+  repository_url: "https://github.com/hemanth-nakshatri/Dynamic-Zoom"
+  is_project_page: true
+  show_downloads: false
+  show_owner_details: false

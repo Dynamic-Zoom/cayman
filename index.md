@@ -1,16 +1,12 @@
 ---
 layout: default
-title: Dynamic Zoom - Advanced Video Resolution Enhancement
-description: Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time video enhancement system designed for digital media.
 ---
 
 ## Welcome to Dynamic Zoom
 
 Dynamic Zoom is a project developed at the University of Wisconsin-Madison ECE 766 Class, designed to enhance video resolution in real time, transforming how digital media is consumed and produced across various industries. Leveraging cutting-edge super-resolution technologies, this project addresses the common degradation of video quality during digital zoom, such as blurring and pixelation, which affects viewer satisfaction and hampers professional digital analysis. By integrating advanced machine learning algorithms and computational strategies, Dynamic Zoom aims to deliver high-definition content without the substantial processing time associated with traditional super-resolution methods. 
 
-Repository: [https://github.com/hemanth-nakshatri/Dynamic-Zoom](https://github.com/hemanth-nakshatri/Dynamic-Zoom)
-
-<div style="padding:66.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/941358351?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="transition"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:66.2% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/941358351?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="transition"></iframe></div>
 
 **Team:** Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
 **Course:** CS 766 - Computer Vision  
@@ -30,13 +26,13 @@ The need for high-definition, clear imagery is more critical than ever across va
 Digital zoom often results in significant quality degradation, such as pixelation, like the following example: 
 
 <p align="center">
-  <img src="assets/pictures/optical1.jpg" />
+  <img src="assets/pictures/optical1.jpg" alt="optical vs digital zoom"/>
 </p>
 
 Our project, Dynamic Zoom, aims to address these issues by providing a real-time solution that not only enhances clarity but also operates efficiently. This is based on the application of advanced super-resolution techniques limited to the key Regions of Interest (ROIs) in the video frames.
 
 <p align="center">
-  <img src="assets/pictures/optical2.jpg" />
+  <img src="assets/pictures/optical2.jpg" alt="region of interest example"/>
 </p>
 
 ## Technical Insight
@@ -46,13 +42,13 @@ Our approach utilizes the Bicubic++ model, highly awarded for its efficiency and
 ### Bicubic++ Model
 
 <p align="center">
-  <img src="assets/pictures/bicubicmodel.png" />
+  <img src="assets/pictures/bicubicmodel.png" alt="bicubic model"/>
 </p>
 
 Bicubic++ is an advanced super-resolution model using deep learning and convolutional neural networks (CNNs) to enhance video and image quality. Trained on a broad dataset of image pairs, it efficiently learns to upscale images while preserving detail and texture. Key features include PixelShuffle for effective resolution enhancement and smoother pixel calculation functions to optimize image sharpness. Utilized by Dynamic Zoom, Bicubic++ ensures high-quality video output in real time, ideal for performance-critical applications.
 
 <p align="center">
-  <img src="assets/pictures/bicubicfunction.png" />
+  <img src="assets/pictures/bicubicfunction.png" alt="function comparison"/>
 </p>
 
 
@@ -69,7 +65,7 @@ Dynamic Zoom combines GPU-accelerated processing with advanced machine learning 
 ### Advanced Upscaling Techniques: PixelShuffle and Conv2D Transpose
 
 <p align="center">
-  <img src="assets/pictures/conv2d.gif" />
+  <img src="assets/pictures/conv2d.gif" alt="2d convolution"/>
 </p>
 
 **Conv2D Transpose:**
@@ -77,7 +73,7 @@ Dynamic Zoom combines GPU-accelerated processing with advanced machine learning 
   - **Real-Time Processing:** By adjusting the stride and padding parameters, Conv2D Transpose layers can be tuned to produce high-resolution outputs from lower-resolution inputs quickly, which is crucial for maintaining real-time performance during live video enhancements.
 
 <p align="center">
-  <img src="assets/pictures/pixelshuffle.gif" />
+  <img src="assets/pictures/pixelshuffle.gif" alt="pixel shuffle"/>
 </p>
 
 **PixelShuffle:**
@@ -103,7 +99,7 @@ Our system is designed for user engagement and quality output, structured as fol
 6. **FileWriter:** The FileWriter component takes the processed frames from the OutputStream and securely writes them to an offline storage solution. This capability is essential for archiving, distributing, or further analyzing the enhanced videos, as well as conducting detailed quality evaluations.
 
 <p align="center">
-  <img src="assets/pictures/model.png" />
+  <img src="assets/pictures/model.png" alt="pipeline"/>
 </p>
 
 ## Demonstrations and Visuals
@@ -112,7 +108,9 @@ Our system is designed for user engagement and quality output, structured as fol
 
 Before and After using Dynamic Zoom:
 
-<iframe src="https://player.vimeo.com/video/941340616?h=243e328936" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/941340616?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="quality" allowfullscreen></iframe></div>
 
 *Click above to watch Dynamic Zoom enhance video quality in real time!*
 
@@ -121,7 +119,7 @@ Before and After using Dynamic Zoom:
 When comparing just the upscaling quality:
 
 <p align="center">
-  <img src="assets/pictures/upscalercomparison.png" />
+  <img src="assets/pictures/upscalercomparison.png" alt="upscaler comparison"/>
 </p>
 
 *The 'Bicubic++' model excels in preserving image details and sharpness.*
@@ -130,7 +128,7 @@ When comparing just the upscaling quality:
 
 Dynamic Zoom's real-time processing capabilities:
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/941360142?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="latency performance"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/941360142?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="latency performance"></iframe></div>
 
 *The system achieves high-quality results with minimal delay.*
 
@@ -143,7 +141,7 @@ Our system has demonstrated exceptional capabilities in enhancing video resoluti
 - Detailed results are shown in the graph.
 
 <p align="center">
-  <img src="assets/pictures/results_graph.png" />
+  <img src="assets/pictures/results_graph.png" alt="results"/>
 </p>
 
 <!-- - **From 360p to 1080p and 720p to 4K:** Achieving high-quality results without noticeable delay.
@@ -169,6 +167,4 @@ Dynamic Zoom aims to provide a meaningful effort in real-time video processing, 
 - Bilecen, Bahri Batuhan, and Mustafa Ayazoglu. "Bicubic++: Designing an Industry-Grade Super-Resolution Network." 2023.
 - Krishnan, Koushik S., and Karthik S. Krishnan. "SwiftSRGAN: Rethinking Super-Resolution for Real-Time Inference." 2021.
 
-
-  <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>
 
