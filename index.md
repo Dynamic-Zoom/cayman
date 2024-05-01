@@ -48,7 +48,7 @@ Our approach utilizes the Bicubic++ model, highly awarded for its efficiency and
 ### Bicubic++ Model
 
 <p align="center">
-  <img src="assets/pictures/bicubic_model_parametric.pdf" alt="bicubic model"/>
+  <img src="assets/pictures/bicubic_model_parametric.svg" alt="bicubic model"/>
 </p>
 
 Bicubic++ is an advanced super-resolution model using deep learning and convolutional neural networks (CNNs) to enhance video and image quality. Trained on a broad dataset of image pairs, it efficiently learns to upscale images while preserving detail and texture. Key features include PixelShuffle for effective resolution enhancement and smoother pixel calculation functions to optimize image sharpness. Utilized by Dynamic Zoom, Bicubic++ ensures high-quality video output in real time, ideal for performance-critical applications.
