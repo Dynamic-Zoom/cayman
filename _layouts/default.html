@@ -10,11 +10,27 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://player.vimeo.com/api/player.js" async crossorigin=""></script>
     {% include head-custom.html %}
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-    <script src="https://player.vimeo.com/api/player.js" crossorigin=""></script>
+    <script>
+      function displayOverview() {
+        var overviewHidden = false;
+        setTimeout(() => {
+          element = document.getElementById('overview');
+          if (overviewHidden) {
+            element.removeAttribute("hidden");
+            overviewHidden = false;
+          } else {
+            element.setAttribute("hidden", "");
+            overviewHidden = true;
+          }
+        }, 2)
+      }
+      displayOverview()
+    </script>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -32,7 +48,7 @@
       {{ content }}
 
       <footer class="site-footer">
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        <a href="{{ site.github.repository_url }}" class="btn" style="background-color: gray">View on GitHub</a>
         {% if site.github.show_owner_details %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
