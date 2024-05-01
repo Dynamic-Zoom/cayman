@@ -48,13 +48,13 @@ Our approach utilizes the Bicubic++ model, highly awarded for its efficiency and
 ### Bicubic++ Model
 
 <p align="center">
-  <img src="assets/pictures/bicubicmodel.png" alt="bicubic model"/>
+  <img src="assets/pictures/bicubic_model_parametric.pdf" alt="bicubic model"/>
 </p>
 
 Bicubic++ is an advanced super-resolution model using deep learning and convolutional neural networks (CNNs) to enhance video and image quality. Trained on a broad dataset of image pairs, it efficiently learns to upscale images while preserving detail and texture. Key features include PixelShuffle for effective resolution enhancement and smoother pixel calculation functions to optimize image sharpness. Utilized by Dynamic Zoom, Bicubic++ ensures high-quality video output in real time, ideal for performance-critical applications.
 
 <p align="center">
-  <img src="assets/pictures/bicubicfunction.png" alt="function comparison"/>
+  <img src="assets/pictures/bicubic_func_comparison.svg" alt="function comparison"/>
 </p>
 
 
@@ -105,7 +105,7 @@ Our system is designed for user engagement and quality output, structured as fol
 6. **FileWriter:** The FileWriter component takes the processed frames from the OutputStream and securely writes them to an offline storage solution. This capability is essential for archiving, distributing, or further analyzing the enhanced videos, as well as conducting detailed quality evaluations.
 
 <p align="center">
-  <img src="assets/pictures/model.png" alt="pipeline"/>
+  <img src="assets/pictures/pipeline.svg" alt="pipeline"/>
 </p>
 
 ## Demonstrations and Visuals
@@ -128,7 +128,7 @@ When comparing just the upscaling quality:
   <img src="assets/pictures/upscalercomparison.png" alt="upscaler comparison"/>
 </p>
 
-*The 'Bicubic++' model excels in preserving image details and sharpness.*
+*The **Bicubic++** model excels in preserving image details and sharpness.*
 
 ### Latency Comparison
 
