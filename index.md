@@ -158,6 +158,7 @@ We are exploring several enhancements to further improve Dynamic Zoom:
 
 - **Advanced Parallel Processing:** To overcome limitations related to the Global Interpreter Lock (GIL).
 - **Exploration of Larger Models:** For even better quality, potentially trading off some inference time for upscaling quality.
+- **Compression Artifact Suppression:** The Bicubic++ model is a very light weight model which is not able to effectively super resolve/eliminate the artifacts caused by the compression artifacts in lower-quality videos. A temporal-aware architecture focused on speed could be a potenital solution for this.
 
 ## Conclusion
 
