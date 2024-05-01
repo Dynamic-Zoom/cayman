@@ -138,11 +138,19 @@ Dynamic Zoom's real-time processing capabilities:
 
 Our system has demonstrated exceptional capabilities in enhancing video resolution efficiently:
 
-- **From 360p to 1080p and 720p to 4K:** Achieving high-quality results without noticeable delay.
+- Our Bicubic++ based approach was able to achieve results that were close to Swift SR-GAN in terms of *Peak Signal to Noise Ratio* and *Structural Similarity Index Measure*. 
+- Further, Bicubic++ achieved high-quality results with inference speeds of about 7-8 ms for 720p to 4K upscaling. In contrast, Swift SR-GAN 2x and 4x models had inference speeds of atleast 200-250 ms demonstrating the effectiveness of Bicubic++ model.
+- Detailed results are shown in the graph.
+
+<p align="center">
+  <img src="assets/pictures/results_graph.png" />
+</p>
+
+<!-- - **From 360p to 1080p and 720p to 4K:** Achieving high-quality results without noticeable delay.
 - **Performance Metrics:**
   - **Processing Speed:** 4.4 milliseconds per frame.
   - **SSIM:** 0.972, indicating excellent structural integrity.
-  - **PSNR:** 43.67 dB, demonstrating superior image clarity.
+  - **PSNR:** 43.67 dB, demonstrating superior image clarity. -->
 
 ## Future Directions
 
