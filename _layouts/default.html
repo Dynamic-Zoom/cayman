@@ -16,8 +16,22 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <script>
+      function showOverview() {
+        checkCountLimit = 1000
+        var myInterval = setInterval(function(){
+          element = document.getElementById('overview-wrapper')
+          if (element) {
+            element.removeAttribute("hidden");
+            clearInterval(myInterval);
+          }
+          if (checkCountLimit < 0) {
+            clearInterval(myInterval);
+          }
+          checkCountLimit -= 1;
+        }, 50);
+      }
       if (Date.now() < Date.parse("May 15 2024")) {
-        document.getElementById('overview-wrapper').removeAttribute("hidden");
+        showOverview();
       }
     </script>
 
