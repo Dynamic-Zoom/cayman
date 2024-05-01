@@ -16,10 +16,10 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <script>
-      function displayOverview() {
+      function toggleOverview() {
         var overviewHidden = false;
-        setTimeout(() => {
-          element = document.getElementById('overview');
+        setInterval(() => {
+          element = document.getElementById('overview-wrapper');
           if (overviewHidden) {
             element.removeAttribute("hidden");
             overviewHidden = false;
@@ -27,9 +27,9 @@
             element.setAttribute("hidden", "");
             overviewHidden = true;
           }
-        }, 2)
+        }, 3000)
       }
-      displayOverview()
+      toggleOverview()
     </script>
 
     <header class="page-header" role="banner">

@@ -2,16 +2,14 @@
 layout: default
 ---
 
-<div id="overview">
-
-## Project Overview
-
-This project is developed as part of a project for Computer Vision (CS/ECE 766) at University of Wisconsin-Madison during Spring 2024.
-
-**Team Members:** Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri  
-**Course:** CS/ECE 766 - Computer Vision  
-**Institution:** University of Wisconsin-Madison
-
+<div id="overview-wrapper">
+<h2 id="overview">Project Overview</h2>
+<p>This project is developed as part of a project for Computer Vision (CS/ECE 766) at University of Wisconsin-Madison during Spring 2024.</p>
+<ul>
+  <li><strong>Team Members:</strong> Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri</li>
+  <li><strong>Course:</strong> CS/ECE 766 - Computer Vision</li>
+  <li><strong>Institution:</strong> University of Wisconsin-Madison</li>
+</ul>
 </div>
 
 ## Welcome to Dynamic Zoom
