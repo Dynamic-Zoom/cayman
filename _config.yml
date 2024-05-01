@@ -1,9 +1,8 @@
-site_settings:
-  title: "Dynamic Zoom - Real-time Video Resolution Enhancement"
-  description: "Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time video enhancement system designed for digital media."
-  theme: jekyll-theme-cayman
-  url: "https://dynamic-zoom.github.io"  # Change this to your GitHub Pages URL or custom domain
-  baseurl: "/home"  # Change this to the name of your GitHub repository if your site is hosted there
+title: "Dynamic Zoom - Real-time Video Resolution Enhancement"
+description: "Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time video enhancement system designed for digital media."
+theme: jekyll-theme-cayman
+url: "https://dynamic-zoom.github.io"  # Change this to your GitHub Pages URL or custom domain
+baseurl: "/home"  # Change this to the name of your GitHub repository if your site is hosted there
 github:
   repository_url: "https://github.com/hemanth-nakshatri/Dynamic-Zoom"
   is_project_page: true
