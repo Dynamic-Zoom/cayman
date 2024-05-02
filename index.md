@@ -8,7 +8,11 @@ layout: default
 <ul>
   <li><strong>Team Members:</strong> Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri</li>
   <li><strong>Course:</strong> CS/ECE 766 - Computer Vision</li>
-  <li><strong>Institution:</strong> University of Wisconsin-Madison</li>
+  <li><strong>Presentation link:</strong> 
+  <a href="https://uwprod-my.sharepoint.com/:p:/g/personal/nakshatri_wisc_edu/EVOCzj17TrFIu-f7eACxn28BIXpDpTGRlnAQ17ygtrZDTg?e=ZIPlnz">OneDrive link</a>
+  (Needs UW Account login to access) </li>
+  <li><strong>GitHub Repository link:</strong> 
+  <a href="{{ site.github.repository_url }}">{{ site.github.repository_url }}</a></li>
 </ul>
 </div>
 
