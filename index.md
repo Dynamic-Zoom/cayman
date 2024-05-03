@@ -9,12 +9,12 @@ layout: default
   <li><strong>Team Members:</strong> Shantanu Vichare, Dario Placencio, Nico Ranabhat, Hemanth Sridhar Nakshatri</li>
   <li><strong>Course:</strong> CS/ECE 766 - Computer Vision</li>
   <li><strong>Presentation link:</strong> 
-  <a href="https://uwprod-my.sharepoint.com/:p:/g/personal/nakshatri_wisc_edu/EVOCzj17TrFIu-f7eACxn28BIXpDpTGRlnAQ17ygtrZDTg?e=ZIPlnz">OneDrive link</a>
+  <a href="https://uwprod-my.sharepoint.com/:p:/g/personal/nakshatri_wisc_edu/EVOCzj17TrFIu-f7eACxn28BIXpDpTGRlnAQ17ygtrZDTg">OneDrive link</a>
   (Needs UW Account login to access) </li>
   <li><strong>GitHub Repository link:</strong> 
   <a href="{{ site.github.repository_url }}">{{ site.github.repository_url }}</a></li>
 </ul>
-</div>
+</div>https://uwprod-my.sharepoint.com/:p:/g/personal/nakshatri_wisc_edu/EVOCzj17TrFIu-f7eACxn28BIXpDpTGRlnAQ17ygtrZDTg
 
 ## Welcome to Dynamic Zoom
 Dynamic Zoom is designed to enhance video resolution in real time, transforming how digital media is consumed and produced across various industries. Leveraging cutting-edge super-resolution technologies, this project addresses the common degradation of video quality during digital zoom, such as blurring and pixelation, which affects viewer satisfaction and hampers professional digital analysis. By integrating advanced machine learning algorithms and computational strategies, Dynamic Zoom aims to deliver high-definition content without the substantial processing time associated with traditional super-resolution methods. 

@@ -3,7 +3,7 @@ description: "Dive into the advanced super-resolution technology of Dynamic Zoom
 url: "https://dynamic-zoom.github.io"  # Change this to your GitHub Pages URL or custom domain
 baseurl: "/home"  # Change this to the name of your GitHub repository if your site is hosted there
 github:
-  repository_url: "https://github.com/hemanth-nakshatri/Dynamic-Zoom"
+  repository_url: "https://github.com/Dynamic-Zoom/Dynamic-Zoom"
   is_project_page: true
   show_downloads: false
   show_owner_details: false
