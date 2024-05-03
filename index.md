@@ -160,7 +160,7 @@ Our system has demonstrated exceptional capabilities in enhancing video resoluti
   - **SSIM:** 0.972, indicating excellent structural integrity.
   - **PSNR:** 43.67 dB, demonstrating superior image clarity. -->
 
-## Application: Sports Streaming
+## Demo: Sports Streaming
 
 Dynamic Zoom can help enhance sports broadcasts by improving clarity and detail during live events. The video below demonstrates how this technology provides a more clear zoom within a basketball highlight clip.
 
