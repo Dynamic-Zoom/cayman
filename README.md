@@ -7,8 +7,11 @@ Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time 
 - Website: [https://dynamic-zoom.github.io/home/](https://dynamic-zoom.github.io/home/)
 - Code repository: [https://github.com/Dynamic-Zoom/Dynamic-Zoom](https://github.com/Dynamic-Zoom/Dynamic-Zoom)
 
+# References
+
 ## Image sources
 
+- Convolution animations: https://animatedai.github.io/
 - https://www.wallpaperflare.com/people-inside-basketball-court-basketball-arena-match-sport-game-wallpaper-wkftv
 - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP13D2be53h__Ic58ECDHoQ7sC603mT5DJiw&s
 - https://ferrumhealth.com/wp-content/uploads/2023/08/shutterstock_1181851309-1024x683.jpg

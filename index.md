@@ -184,4 +184,6 @@ Dynamic Zoom aims to provide a meaningful effort in real-time video processing, 
 - Bilecen, Bahri Batuhan, and Mustafa Ayazoglu. "Bicubic++: Designing an Industry-Grade Super-Resolution Network." 2023.
 - Krishnan, Koushik S., and Karthik S. Krishnan. "SwiftSRGAN: Rethinking Super-Resolution for Real-Time Inference." 2021.
 
+## Image and Video references
 
+Find all on our repo: [Dynamic-Zoom/home](https://github.com/Dynamic-Zoom/home/blob/master/README.md#references)
