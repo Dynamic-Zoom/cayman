@@ -13,6 +13,9 @@ Dive into the advanced super-resolution technology of Dynamic Zoom, a real-time 
 
 - Convolution animations: https://animatedai.github.io/
 - https://www.wallpaperflare.com/people-inside-basketball-court-basketball-arena-match-sport-game-wallpaper-wkftv
+- https://commons.wikimedia.org/wiki/File:Comparison_of_1D_and_2D_interpolation.svg via Wikimedia Commons
+- https://autogear.ru/misc/i/gallery/67767/2500172.jpg
+- Photo by Pixabay from Pexels: https://www.pexels.com/photo/red-and-black-bird-on-red-flowers-36762/
 - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP13D2be53h__Ic58ECDHoQ7sC603mT5DJiw&s
 - https://ferrumhealth.com/wp-content/uploads/2023/08/shutterstock_1181851309-1024x683.jpg
 - https://images.businessnewsdaily.com/app/uploads/2022/04/04081421/1554239840.jpeg
